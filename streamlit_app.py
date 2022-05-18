@@ -35,7 +35,6 @@ try:
     streamlit.dataframe(back_from_function)
 except URLError as e:
   sreamlit.error()
-streamlit.stop()
 
 streamlit.header("The Fruit_Load_List Contains:")
 def get_fruit_load_list():
